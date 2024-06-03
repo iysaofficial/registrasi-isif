@@ -122,14 +122,27 @@ a {
   margin-top: 10 0px !important;
 }
 
-.btn {
+.btn--accent {
   padding: 10px 100px;
   border-radius: 550000px;
   cursor: pointer;
   border: #000 1px solid;
   /* color: #ffffff; */
   transition: all 0.4s;
-  font-size: 20px;
+  font-size: 17px;
+  font-weight: bold;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.btn--primary {
+  padding: 10px 30px;
+  border-radius: 550000px;
+  cursor: pointer;
+  border: #000 1px solid;
+  /* color: #ffffff; */
+  transition: all 0.4s;
+  font-size: 17px;
   font-weight: bold;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
@@ -143,7 +156,7 @@ a {
   color: #ffffff;
   background: linear-gradient(to right, #6f42c1   65%, #483d8b  100%);
   box-shadow: 0 4px 15px 0 rgba(245,245,245);
-  border: #000 1px solid;
+  border: #000 2px solid;
 }
 
 .btn--accent {
@@ -154,7 +167,7 @@ a {
   color: #ffffff;
   background: linear-gradient(to right, #6f42c1   65%, #483d8b  100%);
   box-shadow: 0 4px 15px 0 rgba(245,245,245);
-  border: #000 1px solid;
+  border: #000 2px solid;
 }
 
 @media screen and (max-width: 426px) {
@@ -176,7 +189,7 @@ a {
   }
 
   .link-web a{
-      font-size: 20px;
+      font-size: 15px;
   }
 
   .wrapper h1 {
@@ -200,7 +213,7 @@ a {
     border: 1px solid #ffffff;
     width: 320px;
     font-weight: bold;
-    border-radius: 25px;
+    border-radius: 10px;
     padding: 5px;
     background: linear-gradient(to right, #6f42c1   65%, #483d8b  100%);
   }
